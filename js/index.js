@@ -29,8 +29,15 @@ console.log(allButtons);
 const otherHeaders = document.querySelectorAll('h4');
 console.log(otherHeaders);
 
-const allParas = docBody.querySelectorAll('p');
-allParas.addEventListener('pointerover', function(Event) {
+const allParas = docBody.querySelector('p');
+console.log(allParas);
+
+
+// funtion
+allParas.addEventListener('pointerover',function() {
+    console.log('Pointer Focused On Title' + Date.now());
+}) 
+// arrow funtion
+allParas.addEventListener('pointerover', function()  {
     console.log('Pointer Focused On Title');
 }) 
-console.log(allParas);
