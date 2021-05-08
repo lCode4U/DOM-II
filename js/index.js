@@ -28,5 +28,10 @@ console.log(allButtons);
 
 const otherHeaders = document.querySelectorAll('h4');
 console.log(otherHeaders);
-const allParas = docBody.querySelectorAll('p');
-console.log(allParas);
+
+const allLinks = document.links
+const linksArray = Array.from(allLinks);
+linksArray.addEventListener('mouseenter', function(event) {
+    console.log('Pointer Focused On Links');
+}) 
+console.log(linksArray);
