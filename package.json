@@ -1,29 +1,24 @@
 {
-  "name": "dom-2",
-  "version": "1.0.0",
-  "scripts": {
-    "start": "parcel index.html",
-    "stretch": "parcel stretch-assignment/index.html"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LambdaSchool/DOM-II.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/LambdaSchool/DOM-II/issues"
-  },
-  "homepage": "https://github.com/LambdaSchool/DOM-II#readme",
-  "devDependencies": {
-    "eslint": "^7.6.0",
-    "less": "^3.13.1",
-    "parcel-bundler": "^1.12.4"
-  },
-  "dependencies": {
-    "jshint": "^2.12.0",
-    "set-value": "^4.0.0",
-    "update": "^0.4.2"
-  }
+    "name": "dom-2",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "parcel index.html",
+        "stretch": "parcel stretch-assignment/index.html"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/LambdaSchool/DOM-II.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/LambdaSchool/DOM-II/issues"
+    },
+    "homepage": "https://github.com/LambdaSchool/DOM-II#readme",
+    "devDependencies": {
+        "eslint": "^7.26.0",
+        "less": "^4.1.1",
+        "parcel-bundler": "^1.12.5"
+    }
 }
